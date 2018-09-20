@@ -26,6 +26,7 @@ source(
 
 configure_flags(
   prefix: '/usr',
+  'disable-multilib': nil
 )
 
 cflags
