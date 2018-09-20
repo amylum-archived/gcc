@@ -29,13 +29,17 @@ configure_flags(
   'disable-multilib': nil
 )
 
-cflags
 harden
+cflags
+cflags([
+  '-Wno-error=format-security',
+])
 
 build do
-  configure
-  make
-  install
+  env = { 'CXX' => 'musl-gcc' }
+  configure env
+  make env
+  install env
 end
 
 test do
