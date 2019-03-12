@@ -5,16 +5,16 @@ licenses 'COPYING'
 
 deps(
   mpfr: {
-    version: '4.0.1-2',
-    checksum: '629ce14a414965b5967ee3ff95f40edbc1e62cd97e4a487ed302fae3de1da486'
+    version: '4.0.2-1',
+    checksum: '97a87aa5279c913c13f19575c07f7e202af0d8d1b316fc96906d7f98d3789574'
   },
   gmp: {
     version: '6.1.2-1',
     checksum: '12515de758fa11b2b3d87b347d0593fc8bde37b32a6c609cbddd09473e180b08'
   },
   mpc: {
-    version: '1.1.0-1',
-    checksum: '8fabbb62363cb193e668f38a13cd1f18491e915c44195aca7ba14acbfec28cc3'
+    version: '1.1.0-2',
+    checksum: '42040f4f1e8446949923309f315c56caed2c9b83d51c700212269a007a5d7c26'
   }
 )
 
